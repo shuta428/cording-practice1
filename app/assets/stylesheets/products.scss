@@ -1,3 +1,54 @@
-// Place all the styles related to the products controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.header {
+  width: 100vw;
+  background-color: #1B1310;
+  &__inner {
+    height: 74px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    &__logo {
+      text-decoration: none;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    &__nav {
+      display: flex;
+      .menu {
+        display: flex;
+        .menu-item {
+          margin-right: 55px;
+          list-style: none;
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.fv {
+  width: 100vw;
+  height: 90vh;
+  background-color: #141414;
+  background-image: image-url('fv-bgi@2x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .main-copy {
+    font-size: 50pt;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    padding: 34px 42px;
+  }
+}
