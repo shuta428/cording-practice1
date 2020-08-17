@@ -10,5 +10,63 @@
           = link_to "Service", "#"
         %li.menu-item
           = link_to "Contents", "#"
-.fv
-  %p.main-copy Cresta Design.
+.main
+  .fv
+    %p.main-copy Cresta Design.
+  %section#about.section-wrapper
+    %h2.section-title About
+    %h3.about-title ミニマルで<br>洗練されたデザインを。
+    %p.text-about 近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。
+
+  %section#service.section-wrapper
+    %h2.section-title Service
+    .content-inner
+      .content-inner__comment
+        %h3.service-title リリース時のサポートで<br>サービスのブランディングを
+        %p.service-text 弊社では、リリース時もサポートさせて頂きます。プレスリリース用の<br>サイトや動画制作を通して、サービスのブランディングを行わせて頂き<br>ます。
+      .content-inner__image
+      = image_tag("service-image@2x.jpg", alt: "黒い布の上に置かれた一眼レフカメラ")
+    .content-innerreverse
+      .content-innerreverse__comment
+        %h3.service-title リリース後のサポートで<br>効果を最大化させる
+        %p.service-text 弊社では、リリース後もサポートさせて頂きます。サービスはリリース<br>後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を<br>行うことで、デザインの効果を最大化させます。
+      .content-inner__image
+      = image_tag("service-image02@2x.jpg", alt: "黒い布に置かれたアイフォン")
+  %section#News.section-wrapper
+    .section-inner
+      %h2.section-title News
+      %ul.card-list
+        %li.card-item
+          = link_to "", "#"
+          .card-img
+          = image_tag("card-image1@2x.jpg", alt: "黒いスマホ３台")
+          %p.text-news 新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
+        %li.card-item
+          = link_to "", "#"
+          .card-img
+          = image_tag("card-image2@2x.jpg", alt: "スマホの液晶")
+          %p.text-news 新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
+        %li.card-item
+          = link_to "", "#"
+          .card-img
+          = image_tag("card-image3@2x.jpg", alt: "マックブックエアー")
+          %p.text-news 新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
+  %section#contact.section-contact-wrapper
+    %h2.section-title お問い合わせ
+    %form.form{:action => ""}
+      .form-part
+        %label{:for => "input-name"} 担当者名
+        %input#input-subject{:type => "text"}/
+      .form-part
+        %label{:for => "input-tel"} 電話番号
+        %input#input-subject{:type => "text"}/
+      .form-part
+        %label{:for => "input-mail"} メールアドレス
+        %input#input-subject{:type => "text"}/
+      .form-part
+        %label{:for => "detail"} お問い合わせ内容
+        %textarea#detail{:cols => "30", :name => "", :rows => "10", :type => "text"}
+      .form-send
+        %input.form-btn{:type => "submit", :value => "送信"}/
+.footer
+  %p.footer-copy ©︎crest.design all rights reserved
