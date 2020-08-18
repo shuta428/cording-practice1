@@ -1,0 +1,216 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  width: 100vw;
+  background-color: #1B1310;
+  position: fixed;
+  &__inner {
+    height: 74px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    &__logo {
+      text-decoration: none;
+      a {
+        font-size: 26px;
+        text-decoration: none;
+        color: #fff;
+        font-family: Roboto;
+      }
+    }
+    &__nav {
+      display: flex;
+      .menu {
+        display: flex;
+        .menu-item {
+          margin-right: 55px;
+          list-style: none;
+          a {
+            font-size: 16px;
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.main {
+  color: #141414;
+  font-size: 14px;
+}
+.h2 {
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+.h3 {
+  font-size: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.fv {
+  width: 100vw;
+  height: 90vh;
+  background-color: #141414;
+  background-image: image-url('fv-bgi@2x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .main-copy {
+    font-size: 50pt;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 34px 42px;
+  }
+}
+.section-wrapper {
+  padding:100px 205px 0 205px;
+}
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-bottom: 70px;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+.about-title {
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.text-about {
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-align: left;
+  line-height: 2;
+}
+
+.content-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.content-innerreverse{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.service-title {
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.service-text {
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-align: left;
+  line-height: 2;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between ;
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  
+}
+.card-item {
+  max-width: 320px;
+  box-shadow: 0px 0px 6px rgba(27, 19, 16, 0.4);
+}
+.text-news {
+  color: #141414;
+  padding: 33px 25px;
+  font-size: 13px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+
+.section-contact-wrapper {
+  padding: 150px 370px 50px 370px;
+  .form {
+    max-width: 700px;
+    margin: 0 auto;
+    .form-part {
+      display: flex;
+      flex-direction: column;
+      margin-top: 25px;
+    }
+    .form-send {
+      text-align: center;
+      margin-top: 50px;
+      .form-btn {
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        background-color: #1B1310;
+        width: 235px;
+        display: inline-block;
+        box-shadow: 0px 0px 6px #1B1310;
+        border-radius: 51px;
+      }
+    }
+  }
+}
+
+.contact-title {
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+input,textarea{
+  border: 1px solid #141414;
+  padding: 10px;
+}
+label{
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.footer {
+  width: 100vw;
+  background-color: #1B1310;
+  height: 80px;
+  font-family: 'Roboto', sans-serif;
+  .footer-copy {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 29px;
+  }
+}
+
