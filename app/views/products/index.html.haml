@@ -10,6 +10,7 @@
           = link_to "Service", "#"
         %li.menu-item
           = link_to "Contents", "#"
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
 .main
   .fv
     %p.main-copy Cresta Design.
@@ -20,14 +21,14 @@
 
   %section#service.section-wrapper
     %h2.section-title Service
-    .content-inner
-      .content-inner__comment
+    .content-innerreverse
+      .content-innerreverse__comment
         %h3.service-title リリース時のサポートで<br>サービスのブランディングを
         %p.service-text 弊社では、リリース時もサポートさせて頂きます。プレスリリース用の<br>サイトや動画制作を通して、サービスのブランディングを行わせて頂き<br>ます。
       .content-inner__image
       = image_tag("service-image@2x.jpg", alt: "黒い布の上に置かれた一眼レフカメラ")
-    .content-innerreverse
-      .content-innerreverse__comment
+    .content-inner
+      .content-inner__comment
         %h3.service-title リリース後のサポートで<br>効果を最大化させる
         %p.service-text 弊社では、リリース後もサポートさせて頂きます。サービスはリリース<br>後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を<br>行うことで、デザインの効果を最大化させます。
       .content-inner__image
@@ -52,7 +53,7 @@
           = image_tag("card-image3@2x.jpg", alt: "マックブックエアー")
           %p.text-news 新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
   %section#contact.section-contact-wrapper
-    %h2.section-title お問い合わせ
+    %h2.contact-title お問い合わせ
     %form.form{:action => ""}
       .form-part
         %label{:for => "input-name"} 担当者名

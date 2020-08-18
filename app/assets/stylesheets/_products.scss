@@ -1,3 +1,7 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
 .header {
   width: 100vw;
   background-color: #1B1310;
@@ -14,6 +18,7 @@
         font-size: 26px;
         text-decoration: none;
         color: #fff;
+        font-family: Roboto;
       }
     }
     &__nav {
@@ -36,8 +41,16 @@
 .main {
   color: #141414;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif,'Noto Sans JP', sans-serif;
 }
+.h2 {
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+.h3 {
+  font-size: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 .fv {
   width: 100vw;
   height: 90vh;
@@ -53,7 +66,6 @@
   .main-copy {
     font-size: 50pt;
     color: #fff;
-    font-weight: bold;
     border: 2px solid #fff;
     padding: 34px 42px;
   }
@@ -64,16 +76,27 @@
 .section-title {
   font-size: 36px;
   text-align: center;
-  font-weight: bold;
   letter-spacing: 0.05em;
   margin-bottom: 70px;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
 }
 .about-title {
-  font-size: 2.4rem;
   font-weight: bold;
   line-height: 2;
   letter-spacing: 0.1em;
   margin-bottom: 40px;
+  font-size: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.text-about {
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-align: left;
+  line-height: 2;
 }
 
 .content-inner {
@@ -81,6 +104,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
 }
 
 .content-innerreverse{
@@ -88,8 +112,25 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
   flex-direction: row-reverse;
+}
+
+.service-title {
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.service-text {
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-align: left;
+  line-height: 2;
 }
 
 .card-list {
@@ -107,10 +148,13 @@
 .text-news {
   color: #141414;
   padding: 33px 25px;
+  font-size: 13px;
+  font-family: ヒラギノ角ゴ ProN;
+  text-align: left;
 }
 
 .section-contact-wrapper {
-  padding: 0 370px;
+  padding: 150px 370px 50px 370px;
   .form {
     max-width: 700px;
     margin: 0 auto;
@@ -135,18 +179,32 @@
     }
   }
 }
+
+.contact-title {
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 input,textarea{
   border: 1px solid #141414;
   padding: 10px;
 }
 label{
   margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .footer {
   width: 100vw;
   background-color: #1B1310;
   height: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
   .footer-copy {
     color: #FFFFFF;
     text-align: center;
@@ -154,3 +212,4 @@ label{
     padding-top: 29px;
   }
 }
+
