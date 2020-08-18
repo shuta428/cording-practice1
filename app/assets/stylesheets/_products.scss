@@ -5,6 +5,7 @@ body{
 .header {
   width: 100vw;
   background-color: #1B1310;
+  position: fixed;
   &__inner {
     height: 74px;
     padding: 0 120px;
@@ -149,8 +150,9 @@ body{
   color: #141414;
   padding: 33px 25px;
   font-size: 13px;
-  font-family: ヒラギノ角ゴ ProN;
+  font-family: 'Noto Sans JP', sans-serif;
   text-align: left;
+  letter-spacing: 0.1em;
 }
 
 .section-contact-wrapper {
@@ -204,7 +206,6 @@ label{
   background-color: #1B1310;
   height: 80px;
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
   .footer-copy {
     color: #FFFFFF;
     text-align: center;
